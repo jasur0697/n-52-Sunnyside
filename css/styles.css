@@ -306,6 +306,8 @@ img {
   background-color: white;
 }
 
+
+
 .gallery__heading {
   margin: 0;
   font-family: "Fraunces";
@@ -368,6 +370,66 @@ img {
 .gallery__link:hover::after {
   background-color: #ffda09;
 }
+
+.gallery__fruits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 398px 24px 60px 24px;
+}
+
+.fruits__heading {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+
+}
+
+.fruits__desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  width: 84%;
+}
+
+.graphic__design {
+  color: #24554A;
+  background-image: url(../images/fruit1mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.photography {
+  color: #052C3B;
+  background-image: url(../images/fruit2mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonals__heading {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #A7AAAD;
+  margin-top: 64px;
+}
+
+
 
 
 
@@ -567,6 +629,56 @@ img {
   background-size: cover;
 }
 
+.gallery__fruits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 398px 24px 60px 24px;
+  width: 50%;
+}
+
+.fruits__heading {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+
+}
+
+.fruits__desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  width: 84%;
+}
+
+.graphic__design {
+  color: #24554A;
+  background-image: url(../images/fruit1mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center;
+}
+
+.photography {
+  color: #052C3B;
+  background-image: url(../images/fruit2mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center;
+}
+
+
+
 
 
 
@@ -685,6 +797,57 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.gallery__fruits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 398px 24px 60px 24px;
+  width: 50%;
+}
+
+.fruits__heading {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+
+}
+
+.fruits__desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  width: 84%;
+}
+
+.graphic__design {
+  color: #24554A;
+  background-image: url(../images/fruit1desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+}
+
+.photography {
+  color: #052C3B;
+  background-image: url(../images/fruit2desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+}
+
+
+
 
 }
 
