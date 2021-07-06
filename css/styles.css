@@ -304,6 +304,7 @@ img {
   align-items: center;
   padding: 64px 0;
   background-color: white;
+
 }
 
 
@@ -426,12 +427,105 @@ img {
   text-align: center;
   letter-spacing: 4px;
   color: #A7AAAD;
-  margin-top: 64px;
+  margin: 64px 0;
+}
+
+.clients__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0 24px;
+  margin: 0;
+}
+
+.clients__item  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.clients__item:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.clients__desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #5B636D;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.emily::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  background-image: url(../images/tes_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  margin-bottom: 32px;
+}
+
+.thomas::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  background-image: url(../images/tes_3.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
+
+}
+
+.jennie::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  background-image: url(../images/tes_2.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
 }
 
 
+.clients__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #24303E;
+  margin: 0;
+  margin-bottom: 9px;
+}
 
-
+.clients__status {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #A7AAAD;
+  margin: 0;
+}
 
 
 @media only screen and (min-width: 540px) {
@@ -679,6 +773,103 @@ img {
 
 
 
+.clients__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0 24px;
+  margin: 0;
+}
+
+.clients__item  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.clients__item:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.clients__desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #5B636D;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.emily::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  background-image: url(../images/tes_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  margin-bottom: 32px;
+}
+
+.thomas::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  background-image: url(../images/tes_3.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
+
+}
+
+.jennie::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  background-image: url(../images/tes_2.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
+}
+
+
+.clients__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #24303E;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.clients__status {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #A7AAAD;
+  margin: 0;
+}
+
 
 
 
@@ -845,6 +1036,108 @@ img {
   background-size: cover;
   background-position:center ;
 }
+
+
+.clients__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clients__item  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+}
+
+.clients__item:not(:last-child) {
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+.clients__desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #5B636D;
+  margin: 0;
+  padding-bottom: 69px;
+ 
+}
+
+.emily::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  background-image: url(../images/tes_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  margin-bottom: 32px;
+}
+
+.thomas::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  background-image: url(../images/tes_3.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
+
+}
+
+.jennie::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: block;
+  background-image: url(../images/tes_2.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
+}
+
+
+.clients__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #24303E;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.clients__status {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #A7AAAD;
+  margin: 0;
+}
+
 
 
 
