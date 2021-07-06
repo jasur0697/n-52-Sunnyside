@@ -372,6 +372,24 @@ img {
   background-color: #ffda09;
 }
 
+.red__link::after {
+  content: "";
+  height:10px ;
+  width: 100%;
+  display: block;
+  background-color: #FE7766;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border-radius: 28px;
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+}
+
+.red__link:hover::after {
+  background-color: #f1341b;
+}
+
 .gallery__fruits {
   display: flex;
   flex-direction: column;
@@ -526,6 +544,45 @@ img {
   color: #A7AAAD;
   margin: 0;
 }
+
+
+.gallery-pics__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 86px;
+}
+
+
+
+.pics {
+  min-width: 50%;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.bottles {
+  background-image:url(../images/last_mob1.jpg);
+  height:188px;
+}
+
+.lime {
+  background-image:url(../images/last_mob2.jpg);
+  height:188px;
+
+}
+
+.bread {
+  background-image:url(../images/last_mob3.jpg);
+  height:188px;
+}
+
+.sugar {
+  background-image: url(../images/last_mob4.jpg);
+  height:188px;
+}
+
 
 
 @media only screen and (min-width: 540px) {
@@ -870,9 +927,6 @@ img {
   margin: 0;
 }
 
-
-
-
 }
 
  
@@ -1138,6 +1192,38 @@ img {
   margin: 0;
 }
 
+.gallery-pics__container {
+  margin-top: 86px;
+}
+
+.pics {
+  min-width: 25%;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  flex-wrap: nowrap;
+  
+}
+
+.bottles {
+  background-image: url(../images/last_gr1.jpg);
+  height:447px;
+}
+
+.lime {
+  background-image: url(../images/last_gr2.jpg);
+  height:447px;
+}
+
+.bread {
+  background-image: url(../images/last_gr3.jpg);
+  height:447px;
+}
+
+.sugar {
+  background-image: url(../images/last_gr4.jpg);
+  height:447px;
+}
 
 
 
@@ -1148,7 +1234,6 @@ img {
 /* foooter */
 
 .footer {
-  margin-top: 183px;
   background-color: 
   #90D4C6;
 }
